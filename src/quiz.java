@@ -8,8 +8,8 @@ public class quiz {
 
 		} else if (Spiders.matches("[0-9]+")) {
 			JOptionPane.showInputDialog("Ha no but I'll give you another chance");
-
-		}else if (Spiders.equals("eight")) {
+}
+		else if (Spiders.equals("eight")) {
 			JOptionPane.showInputDialog("... C-Corect");
 		}else{ JOptionPane.showInputDialog("Ha no but I'll give you another chance");
 		}
